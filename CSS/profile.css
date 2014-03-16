@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+#profile_text {
+	width: 700px;
+	margin: 0 auto;
+}
+#profile_text p {
+	line-height: 30px;
+	color: #666;
+}
+h2 {
+	font-size: 28px;
+	margin: 30px 0 25px 0;
+	width: 700px;
+	padding-bottom: 10px;
+	border-bottom: 5px dotted #7EDA5C;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-color: #7EDA5C;
+	border-right-color: #7EDA5C;
+	border-left-color: #7EDA5C;
+	color: #090;
+}
+#profile_text p.okada {
+	font-size:18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+dl {
+	color: #666;
+}
+dt {
+	margin: 15px 0 5px 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+.illustrator {
+	color: #F90;
+}
+.photoshop {
+	color: #33C;
+}
+.fireworks {
+	color: #D0C106;
+}
+.html {
+	color: #093;
+}
+.flash {
+	color: #F86458;
+}
+.jquery {
+	color: #909;
+}
+.wordpress {
+	color: #666;
+}

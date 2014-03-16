@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>岡田大誠ポートフォリオサイト</title>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.flickslide.js"></script>
+<script src="js/snowfall.min.jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="css/commmon.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/flickslide.css">
+<script type="text/javascript">
+$(function(){
+    $('#mainImages li').flickSlide({target:'#mainImages>ul', duration:2000});
+
+});
+    window.addEventListener('load', function(){ window.scrollTo(0,1); }, false);
+	    $(document).ready(function(){
+    $(document).snowfall({
+	flakeCount : 80,
+	})
+});
+</script>
+</head>
+<body>
+<header>
+  <div id="head_wrap">
+    <p><a href="index.html"><img src="images/logo.gif" width="56" height="30" alt="株式会社アドミレーションセンター"></a></p>
+    <h1>岡田大誠ポートフォリオサイト</h1>
+  </div>
+</header>
+<div id="main_wrap">
+  <div id="mainImages" class="mainImageInit">
+    <ul>
+      <li><img src="images/slide2.jpg" width="100%" alt="スマートフォンでWEBサイトの閲覧が増えています"></li>
+      <li><img src="images/slide1.jpg" width="100%" alt="スマホサイト制作ならアドミレーションセンターにお任せください"></li>
+    </ul>
+  </div>
+  <h2>アドミレーションセンターは<br>
+    スマホに強い制作会社です</h2>
+  <p class="top_text">アドミレーションセンターは、小さなグラフィック・ツールの制作から大がかりなイベントのプロデュース、
+    
+    そして、マルチメディア・コンテンツ制作まで、広告制作の枠を越えて幅広くコミュニケーション活動のお手伝いをしていきます。</p>
+  
+  <!--サムネイルつき矢印リスト2-->
+  
+  <section class="list4">
+    <ul>
+      <li class="li_top"><a href="#"><img src="images/images3.gif" alt="制作実績"><strong>Profile</strong>自己紹介</a></li>
+      <li><a href="philosophy.html"><img src="images/images5.gif" alt="企業理念"><strong>Portfolio</strong>作品集</a></li>
+      <li><a href="#"><img src="images/images2.gif" alt="会社概要"><strong>Blog</strong>ブログ</a></li>
+      <li class="li_bottom"><a href="#"><img src="images/images4.gif" alt="お問い合わせ"><strong>Contact</strong>お問い合わせ</a></li>
+    </ul>
+    <h3>新着情報</h3>
+    <dl>
+      <dt>1111年1111月1111日</dt>
+      <dd>ccccccccccccccccccc</dd>
+      <dt>1111年1111月1111日</dt>
+      <dd>ccccccccccccccccccc</dd>
+      <dt>1111年1111月1111日</dt>
+      <dd>ccccccccccccccccccc</dd>
+    </dl>
+  </section>
+  <!--/サムネイルつき矢印リスト2--> 
+</div>
+<footer>
+  <p>Copyright© Admiration Center Inc.2013. All Rights Reserved,</p>
+</footer>
+</body>
+</html>

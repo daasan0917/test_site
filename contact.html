@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="WEBデザイナー,大阪,枚方市,卵,デザイン,ロゴ,コンタクト,メールフォーム,お問い合わせ," />
+<meta name="description" content="大阪枚方市在住のWEBデザイナー「岡田大誠」のポートフォリオサイトです。お問い合わせやご意見等ございましたら、どうぞお気軽にご連絡ください。" />
+<title>WEBDA Contact</title>
+<!-- ========== web-weatures.net Paralax Background ================= -->
+<script type="text/javascript" src="js/palalax.js"></script>
+<script type="text/javascript" src="http://web-features.net/api/wf.pbb.api.js"></script>
+<!-- ========== web-weatures.net Paralax Background ================= -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/snowfall.min.jquery.js"></script>
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="CSS/common.css"/>
+<link rel="stylesheet" type="text/css" href="CSS/contact.css"/>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<script type='text/javascript'>    
+    $(document).ready(function(){
+    $(document).snowfall({
+	flakeCount : 180,
+	})
+});
+</script>
+</head>
+<body>
+<a href="#header"><img class="top" src="images/top.png" width="79" height="22" alt="topへ" /></a>
+<div id="head_white">
+  <div id="header">
+    <p class="aaa">大阪のWEBデザイナー　岡田大誠のポートフォリオサイト</p>
+    <a href="index.html"><img class="logo" src="images/logo.jpg" width="394" height="142" alt="WEBDAのロゴ" /></a>
+    <div id="navi">
+      <ul>
+        <li><a href="index.html"><img src="images/home.jpg" width="46" height="13" alt="home" /></a></li>
+        <li><a href="profile.html"><img src="images/profile.jpg" width="76" height="13" alt="profile" /></a></li>
+        <li><a href="portfolio.html"><img src="images/portfolio.jpg" width="98" height="13" alt="portfolio" /></a></li>
+        <li><a href="http://daasan.minibird.jp/daasan/" target="_blank"><img src="images/blog.jpg" width="44" height="13" alt="blog" /></a></li>
+        <li><a class="portfolio"href="contact.html"><img src="images/contact.jpg" width="81" height="13" alt="contact" /></a></li>
+      </ul>
+    </div>
+    <!--navi_end-->
+  </div>
+  <!--header_end-->
+</div>
+<!--head_white_end-->
+<div id="wrap">
+  <h1><img class="main_photo" src="images/contact_main.jpg" width="902" height="350" alt="コンタクト" /></h1>
+  <div id="form_top">
+    <h2>お問い合わせフォーム</h2>
+    <p>ご質問やご要望など、何でも結構ですのでどうぞお気軽にお問い合わせください。</p>
+  </div>
+  <!--form_top_end-->
+  <div id="form">
+    <form action="contact.php" method="post" name="contact" id="contact">
+      <table width="600" border="0">
+        <tr>
+          <td width="149" valign="bottom">お名前</td>
+          <td width="438"><span id="sprytextfield2">
+            <input name="namae" type="text" class="area" id="namae" size="35" /><br />
+          <span class="textfieldRequiredMsg">お名前を入力してください。</span></span></td>
+        </tr>
+        <tr>
+          <td valign="bottom">メールアドレス</td>
+          <td><span id="sprytextfield1">
+            <input name="email" type="text" class="area" id="email" /><br />
+          <span class="textfieldRequiredMsg">メールアドレスを入力してください。</span><span class="textfieldInvalidFormatMsg">無効な形式です。</span></span></td>
+        </tr>
+        <tr>
+          <td valign="bottom">件名</td>
+          <td><input name="subject" type="text" class="area" id="subject" size="40" maxlength="40" /></td>
+        </tr>
+        <tr>
+          <td valign="top" class="toiawase">お問い合わせ内容</td>
+          <td><textarea name="text" cols="37" rows="10" id="text"></textarea></td>
+        </tr>
+      </table>
+      <div class="sousin">
+      <input name="gomail" type="submit"  />
+      <input name="" type="reset" />
+      </div>
+    </form>
+  </div>
+</div>
+<!--wrap_end-->
+<div id="footer">
+  <div id="footer_body">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="profile.html">PROFILE</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="http://daasan.minibird.jp/daasan/" target="_blank">BLOG</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <p>Copyright(C) 2012 WEBDA　All Rights Reserved.</p>
+  </div>
+</div>
+<!--footer_end-->
+<script type="text/javascript">
+<!--
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "email");
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
+//-->
+</script>
+</body>
+</html>

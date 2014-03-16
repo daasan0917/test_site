@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.point1 {
+	margin-top:100px;
+	height: 10px;
+	margin-bottom: 50px;
+}
+
+.point2 {
+	margin-top:100px;
+	height: 10px;
+	margin-bottom: 50px;
+}
+.point3 {
+	margin-top:100px;
+	height: 10px;
+	margin-bottom: 50px;
+}
+
+.text_point1 {
+	opacity: 0;
+}
+
+.text_point2 {
+	opacity: 0;
+}
+
+.text_point3 {
+	opacity: 0;
+}
+
+
+h2 {
+	background: #FFF;
+	font-size: 250%;
+	color: #FC0;
+}

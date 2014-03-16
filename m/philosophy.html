@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>株式会社アドミレーションセンター</title>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/commmon.css">
+<link rel="stylesheet" type="text/css" href="css/philosophy.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.pageslide.css">
+<script type="text/javascript">
+$(function(){
+	$('.point1').waypoint(function(event,direction){
+		$('.text_point1').css({opacity:'0'}).stop().animate({opacity:'1'},200);
+	});
+		$('.point2').waypoint(function(event,direction){
+		$('.text_point2').css({opacity:'0'}).stop().animate({opacity:'1'},200);
+	});
+	$('.point3').waypoint(function(event,direction){
+		$('.text_point3').css({opacity:'0'}).stop().animate({opacity:'1'},200);
+	});
+});
+    window.addEventListener('load', function(){ window.scrollTo(0,1); }, false);
+</script>
+</head>
+
+<body>
+<header>
+  <div id="head_wrap">
+    <p><a href="index.html"><img src="images/logo.gif" width="56" height="30" alt="株式会社アドミレーションセンター"></a></p>
+    <h1>企業理念</h1>
+  </div>
+</header>
+<div id="main_wrap">
+ <div class="point1"></div>
+  <h2>想造力で！</h2>
+  <p class="text_point">「想造力」とは、
+    つねに周りを思いやるやさしい心と型にはまらない自由な発想を、
+    高い技術によって達成する
+    英知を注いだモノづくりを行う力です。</p>
+  <div class="point2"></div>
+  <div class="text_point1">
+  <h2>世の中を！</h2>
+  <p>「世の中」とは、
+    当社の掲げる企業理念に賛同し集まった社員はもとより、
+    社員の家族、クライアント、ユーザー、協力者、
+    ひいては社会の人々までを指すものです。</p></div>
+  <div class="point3"></div>
+    <div class="text_point2">
+  <h2>楽しくする！</h2>
+  <p>「楽しく」とは、
+    心が満ち足りて安らかになり、
+    ウキウキ・ワクワクと愉快な気分になることです。
+    人々の最大の目標である"幸せ"を実現するために、
+    もっとも大切な要素だと我々は考えます。</p></div>
+  <a href="#side" class="first">menu</a>
+  <ul id="side">
+    <li><a href="#">content1</a></li>
+    <li><a href="#">content2</a></li>
+    <li><a href="#">content3</a></li>
+  </ul>
+</div>
+<footer>
+  <p>Copyright© Admiration Center Inc.2013. All Rights Reserved,</p>
+</footer>
+<script type="text/javascript" src="js/jquery.pageslide.min.js"></script> 
+<script>
+	/* Default pageslide, moves to the right */
+	$(".first").pageslide();
+	/* Slide to the left, and make it model (you'll have to call $.pageslide.close() to close) */
+	$(".second").pageslide({ direction: "left", modal: true });
+</script>
+</body>
+</html>
